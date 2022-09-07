@@ -1,0 +1,3 @@
+The space and time complexity is O(n).
+
+The code constructs a Router class implemented using Trie Algorithm. 

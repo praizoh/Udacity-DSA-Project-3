@@ -1,0 +1,1 @@
+To solve this problem, the merge sort algorithm is applied to sort the list in descending order.the merge sort time complexity is O(nlog(n)) and the space complexity id O(n).
