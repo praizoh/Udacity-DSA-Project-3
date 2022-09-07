@@ -1,2 +1,2 @@
-The zeros are arranged to the left and 2's to the right. Using while loop.
+The zeros are arranged to the left and 2's to the right. Using while loop and quick sort.
 The time and space complexity is O(n).

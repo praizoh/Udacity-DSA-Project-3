@@ -23,6 +23,7 @@ class Router:
         paths = split_path(path)
         return self.route_trie.find(paths)
 
+
 # A RouteTrie will store our routes and their associated handlers
 class RouteTrie:
     def __init__(self, route_handler=None):
@@ -76,9 +77,6 @@ def split_path(path):
     return paths
 
 
-
-
-
 # Here are some test cases and expected outputs you can use to test your implementation
 
 # create the router and add a route
@@ -91,5 +89,6 @@ print(router.lookup("/home"))  # should print 'not found handler' or None if you
 print(router.lookup("/home/about"))  # should print 'about handler'
 print(router.lookup("/home/about/"))  # should print 'about handler' or None if you did not handle trailing slashes
 print(router.lookup("/home/about/me"))  # should print 'not found handler' or None if you did not implement one
-print(router.lookup(""))
-print(router.lookup())
+print(router.lookup("")) # should print 'Invalid Path'
+print(router.lookup(None)) # should print 'Invalid Path'
+print(router.lookup()) # should print 'Invalid Path'

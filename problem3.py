@@ -62,3 +62,5 @@ test_case1 = [[""], [-1]]
 test_function(test_case1)
 test_case2 = [[], [-1]]
 test_function(test_case2)
+test_case3 = ["", [-1]]
+test_function(test_case3)

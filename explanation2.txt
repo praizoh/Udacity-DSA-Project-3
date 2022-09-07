@@ -1,3 +1,4 @@
-
+Using divide and conquer, I looped through the given sorted array to get the index of the given number.
+The array was divided into two, using the middle index as a reference point, I searched for the number.
 The runtime complexity is O(log(n))
 
