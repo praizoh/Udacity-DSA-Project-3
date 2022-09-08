@@ -12,19 +12,6 @@
 # Give it a try by implementing the `TrieNode` and `Trie` classes below!
 
 # In[9]:
-
-
-## Represents a single node in the Trie
-class TrieNode:
-    def __init__(self):
-        ## Initialize this node in the Trie
-        self.is_word = False
-        self.children = {}
-    
-    def insert(self, char):
-        ## Add a child node in this Trie
-        if char not in self.children:
-            self.children[char] = TrieNode()
         
 ## The Trie itself containing the root node and insert/find functions
 class Trie:

@@ -2,18 +2,18 @@ An http Router handler implemented using Trie Algorithm.
 
 Router:
 Efficiency of the add_handler() method
-Time complexity: O(n)
-Space complexity: 0(n)
+Time complexity: O(1)
+Space complexity: O(1)
 
 Efficiency of the lookup() method
-Time complexity: O(n)
+Time complexity: O(1)
 Space complexity: O(1)
 
 
 RouteTrie:
 Efficiency of the insert() method
 Time complexity: O(n)
-Space complexity: 0(N)
+Space complexity: 0(1)
 
 Efficiency of the find() method
 Time complexity: O(n)
@@ -27,3 +27,5 @@ Space complexity: 0(1)
 Efficiency of the split_path() method
 Time complexity: O(1)
 Space complexity: 0(1)
+
+Overall(Modular Complexity), the space complexity is 0(1) and time complexity is O(n)
