@@ -1,4 +1,29 @@
-The time complexity is O(n).
-The space complexity for inserting is O(n), for searching is O(1).
-
 An http Router handler implemented using Trie Algorithm.
+
+Router:
+Efficiency of the add_handler() method
+Time complexity: O(n)
+Space complexity: 0(n)
+
+Efficiency of the lookup() method
+Time complexity: O(n)
+Space complexity: O(1)
+
+
+RouteTrie:
+Efficiency of the insert() method
+Time complexity: O(n)
+Space complexity: 0(N)
+
+Efficiency of the find() method
+Time complexity: O(n)
+Space complexity: O(1)
+
+RouteTrieNode:
+Efficiency of the insert() method
+Time complexity: O(1)
+Space complexity: 0(1)
+
+Efficiency of the split_path() method
+Time complexity: O(1)
+Space complexity: 0(1)
