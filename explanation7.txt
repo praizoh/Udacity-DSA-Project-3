@@ -1,3 +1,4 @@
-The space and time complexity is O(n).
+The time complexity is O(n).
+The space complexity for inserting is O(n), for searching is O(1).
 
 An http Router handler implemented using Trie Algorithm.

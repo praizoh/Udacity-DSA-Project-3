@@ -1,2 +1,3 @@
 The zeros are arranged to the left and 2's to the right. Using while loop and quick sort.
-The time and space complexity is O(n).
+The time and complexity is O(n).
+The space complexity is O(1).

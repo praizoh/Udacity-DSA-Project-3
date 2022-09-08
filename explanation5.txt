@@ -1,1 +1,4 @@
-Trie node class defines a Trie datatype, with methods to insert words, and a recursive function to return word related to a suffix. The space and time complexity is O(n).
+Trie node class defines a Trie algorithm, with methods to insert words, and a recursive function to return word related to a suffix.
+The time complexity is O(n).
+The space complexity is:O(nm) where n is the maximum depth of the recursion tree and m is the space it takes each recursion
+to execute.

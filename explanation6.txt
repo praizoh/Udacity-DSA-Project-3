@@ -1,3 +1,4 @@
 I specified the minimum and maximum number to be the first element of the array. Then looped through by comparing other
-elements of the array with the maximum and minuimum number and switching as need be.
-The space and runtime complexity of this solution is O(n).
+elements of the array with the maximum and minimum number and switching as need be.
+The runtime complexity of this solution is O(n).
+The space complexity is O(1).
