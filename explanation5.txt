@@ -1,21 +1,25 @@
 Trie node class defines a Trie algorithm,
 with methods to insert words, and a recursive function to return word related to a suffix.
 
-Trie:
-Efficiency of the insert() method
+Trie.init
+This method initialized a Trie data structure has a Time complexity of O(1) and a space complexity of O(1)
+
+Trie.insert
 Time complexity: O(n)
 Space complexity: 0(1)
 
-Efficiency of the find() method
+Trie.find()
 Time complexity: O(n)
 Space complexity: O(1)
 
-TrieNode:
-Efficiency of the insert() method
+TrieNode.init
+This method initialized a TrieNode data structure has a Time complexity of O(1) and a space complexity of O(1)
+
+TrieNode.insert()
 Time complexity: O(n)
 Space complexity: 0(1)
 
-Efficiency of the Suffices() method
+TrieNode.suffixes()
 Time complexity: O(n*m) or O(n**2). Since it is a recursive function
 Space complexity: O(1)
 

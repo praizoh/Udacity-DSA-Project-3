@@ -1,30 +1,38 @@
 An http Router handler implemented using Trie Algorithm.
 
-Router:
-Efficiency of the add_handler() method
+Router.init
 Time complexity: O(1)
 Space complexity: O(1)
 
-Efficiency of the lookup() method
-Time complexity: O(1)
-Space complexity: O(1)
-
-
-RouteTrie:
-Efficiency of the insert() method
-Time complexity: O(n)
-Space complexity: 0(1)
-
-Efficiency of the find() method
+Router.add_handler()
 Time complexity: O(n)
 Space complexity: O(1)
 
-RouteTrieNode:
-Efficiency of the insert() method
+Router.lookup()
+Time complexity: O(n)
+Space complexity: O(1)
+
+RouteTrie.init
 Time complexity: O(1)
 Space complexity: 0(1)
 
-Efficiency of the split_path() method
+RouteTrie.insert()
+Time complexity: O(n)
+Space complexity: 0(n)
+
+RouteTrie.find()
+Time complexity: O(n)
+Space complexity: O(1)
+
+RouteTrieNode.init()
+Time complexity: O(1)
+Space complexity: 0(1)
+
+RouteTrieNode.insert()
+Time complexity: O(1)
+Space complexity: 0(1)
+
+split_path()
 Time complexity: O(1)
 Space complexity: 0(1)
 
